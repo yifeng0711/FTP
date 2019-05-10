@@ -1,0 +1,27 @@
+219-04-22
+传输过程中未存在的目录
+PWD
+CWD <dir>
+若<dir>不存在，则
+MKD <dir>
+CWD <dir>
+
+
+文件不存在，文件大小为0，文件大小>0
+都可以正常上传
+
+/** 
+    * 当多个线程都使用超时处理的时候，同时主线程中有sleep或是wait等操作。 
+    * 如果不设置这个选项，libcurl将会发信号打断这个wait从而导致程序退出。 
+    */  
+	//curl_easy_setopt(tCurl, CURLOPT_NOSIGNAL, 1);  
+	//curl_easy_setopt(tCurl, CURLOPT_CONNECTTIMEOUT, 4); //wait for 4 seconds to connect to server
+	//curl_easy_setopt(tCurl, CURLOPT_TIMEOUT, timeout);       //0 means block always
+
+	//3秒内传输字节低于5Kb则中止
+	//curl_easy_setopt(curl, CURLOPT_LOW_SPEED_TIME, 3L);
+	//curl_easy_setopt(curl, CURLOPT_LOW_SPEED_LIMIT, 5L);
+
+2019-5-6 11:11
+准备将任务获取线程加入线程池中
+因为鼎桥项目搁置，稍后再改

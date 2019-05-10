@@ -1,0 +1,16 @@
+2019-4-22 
+新增接口GetRemoteFileSize，获取服务器上文件的大小
+int			GetRemoteFileSize	(const char* vFileName);
+
+
+2019-4-23	接口优化
+修改接口Connect增加连接超时
+
+新增接口SetTimeOut，设置接收、回复超时
+bool		SetTimeOut			(int vTimeOut=5*1000);	//设置发送/接收超时时间，默认5秒
+
+
+进度回调
+typedef int (*pCallBack)(double dtotal, double dnow);
+
+

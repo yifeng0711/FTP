@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FtpClient_WinSock", "FtpClient_WinSock\FtpClient_WinSock.vcproj", "{6E3C7AFA-6983-456B-B6CA-D31635313186}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FtpClient_ThreadPool_WinApi", "FtpClient_ThreadPool_WinApi\FtpClient_ThreadPool_WinApi.vcproj", "{C35F166E-8B6F-4EC0-AC3F-AB3D55876686}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FtpClient_libcurl", "FtpClient_libcurl\FtpClient_libcurl.vcproj", "{E404CF9C-BC6C-4C2A-94BF-9012A52F4465}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E3C7AFA-6983-456B-B6CA-D31635313186}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6E3C7AFA-6983-456B-B6CA-D31635313186}.Debug|Win32.Build.0 = Debug|Win32
+		{6E3C7AFA-6983-456B-B6CA-D31635313186}.Release|Win32.ActiveCfg = Release|Win32
+		{6E3C7AFA-6983-456B-B6CA-D31635313186}.Release|Win32.Build.0 = Release|Win32
+		{C35F166E-8B6F-4EC0-AC3F-AB3D55876686}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C35F166E-8B6F-4EC0-AC3F-AB3D55876686}.Debug|Win32.Build.0 = Debug|Win32
+		{C35F166E-8B6F-4EC0-AC3F-AB3D55876686}.Release|Win32.ActiveCfg = Release|Win32
+		{C35F166E-8B6F-4EC0-AC3F-AB3D55876686}.Release|Win32.Build.0 = Release|Win32
+		{E404CF9C-BC6C-4C2A-94BF-9012A52F4465}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E404CF9C-BC6C-4C2A-94BF-9012A52F4465}.Debug|Win32.Build.0 = Debug|Win32
+		{E404CF9C-BC6C-4C2A-94BF-9012A52F4465}.Release|Win32.ActiveCfg = Release|Win32
+		{E404CF9C-BC6C-4C2A-94BF-9012A52F4465}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
